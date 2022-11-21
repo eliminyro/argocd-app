@@ -1,0 +1,11 @@
+{
+    "appName": "sealed-secrets",
+    "userGivenName": "sealed-secrets",
+    "destNamespace": "kube-system",
+    "destServer": "https://kubernetes.default.svc",
+    "srcPath": "apps/sealed-secret/testing",
+    "srcRepoURL": "https://github.com/eliminyro/argocd-app.git",
+    "srcTargetRevision": "",
+    "CreateNamespace": true,
+    "labels": null
+  }
